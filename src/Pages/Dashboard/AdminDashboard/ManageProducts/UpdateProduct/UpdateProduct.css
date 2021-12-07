@@ -1,0 +1,29 @@
+.update-section{
+    padding: 3rem 0;
+    background-color: #f0f1fd;
+}
+.update-form-wrap {
+    display: flex;
+    justify-content: center;
+}
+.update-form{
+    width: 60%;
+}
+.update-form{
+    text-align: left;
+}
+.update-form label{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #5258fb;
+}
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    
+}
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+    .update-form {
+        width: 90%;
+    }
+}

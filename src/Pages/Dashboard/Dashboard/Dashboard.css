@@ -1,0 +1,32 @@
+.dashboard-section{
+    background-color: #f0f1fd;
+}
+
+.dashboard-nav{
+    min-height: 100vh;
+}
+.dashboard-nav .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    background: #5258fb;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+}
+.dashboard-nav .nav-link:hover {
+    color: #fff;
+    background: #5258fbb2;
+}
+
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    
+}
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+    .dashboard-nav {
+        min-height: 20vh;
+    }
+}
